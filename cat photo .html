@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cat photos in div</title>
+        <style>
+            #total{
+                width: 200px;
+                height: 300px;
+                margin-left: 5px;
+                box-shadow: 2px 5px 5px gray;
+                display: inline-block;
+                margin-left: 12px;
+            }
+            img{
+                width: 200px;
+                height: 150px;
+                object-fit: cover;
+                margin-bottom: 0px;
+            }
+            #bold{
+                font-weight: bolder;
+                color: black;
+                margin-top: 5px;
+                margin-bottom: 0px;
+            }
+            p{
+                color: gray;
+                margin-top: 5px;
+                margin-bottom: 0px;
+            }
+            button{
+                color: white;
+                background-color: #3030e0;
+                border: none;
+                border-radius:3px ;
+                padding: 7px 15px;
+                margin-top: 10px;
+            }
+            #inside{
+                margin-left: 5px;
+               margin-top: 0px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="total"> 
+            <img id="cat" src="cat.jpg">
+            <div id="inside"> 
+                <p id="bold">Oliver</p>
+                <p>2 mutual friends</p>
+                <button>Add Friend</button>
+            </div>
+        </div>
+        <div id="total"> 
+            <img id="cat" src="cat2.jpg">
+            <div id="inside"> 
+                <p id="bold">Mimi</p>
+                <p>3 mutual friends</p>
+                <button>Add Friend</button>
+            </div>
+        </div>
+        <div id="total"> 
+            <img id="cat" src="dog.jpg">
+            <div id="inside"> 
+                <p id="bold">Rex</p>
+                <p>4 mutual friends</p>
+                <button>Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>
